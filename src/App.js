@@ -1,10 +1,15 @@
 import React from 'react';
-function App() {
-  return (
-    <div className="App">
-      <h1>Hello Workd</h1>
+import Header from './Header/index';
+import ProductList from './ProductList/index';
+import './data';
+
+const App = () => (
+  <div className="App">
+    <Header />
+    <div className="container">
+      <ProductList />
     </div>
-  );
-}
+  </div>
+);
 
 export default App;
