@@ -1,0 +1,17 @@
+.product-tile {
+    background-color: #eee;
+}
+.product-tile .product-image {
+    width: 200px;
+    margin: 0 auto;
+}
+.card-body span {
+    display: block;
+}
+.card-body .product-brand {
+    font-size: 14px;
+}
+.card-body .product-title {
+    font-size: 17px;
+    margin: 10px 0;
+}
