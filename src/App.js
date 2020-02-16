@@ -1,12 +1,13 @@
 import React from 'react';
 import Header from './Header/index';
 import ProductList from './ProductList/index';
-import './data';
+import './App.css';
+
 
 const App = () => (
   <div className="App">
     <Header />
-    <div className="container">
+    <div className="container product-list">
       <ProductList />
     </div>
   </div>
